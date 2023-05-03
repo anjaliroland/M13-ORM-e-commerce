@@ -60,18 +60,25 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## 💻 Usage
 
-**Video Walkthrough:** 
+**Video Walkthrough:** https://drive.google.com/file/d/125JkcOROa2vL8te10-pCE7RJn8B3SgOs/view?usp=share_link
 
 ><em>MySQL has to be installed on computer for this application to run.</em>
 
 ***Steps for Usage***  
-**1:** once repo is cloned to local machine cd into it in the terminal  
-**2:** use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data   
-**3:** run `npm i` to install dependencies     
+**1:** once repo is cloned to local machine cd into it in the terminal
+
+**2:** use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data 
+
+**3:** run `npm i` to install dependencies   
+
 **4:** run `mysql -u root -p` to start mysql     
+
 **5:** once logged into mysql shell run `source schema.sql;` to create the database then `exit` to quit mysql shell  
+
 **6:** run `npm run seed` to seed data into database  
+
 **7:** run `node server` to start app  
+
 **8:** open Insomnia or another  API development app to GET, POST, PUT, and delete the routes for catergories, products, and tags    
 
 
