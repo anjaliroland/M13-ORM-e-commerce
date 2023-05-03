@@ -8,6 +8,7 @@
     - [Acceptance Criteria](#☑️-acceptance-criteria)
 - [Technologies Used](#🛠️-technologies-used)
 - [Usage](#💻-usage) 
+    - [Screenshot](#📸-screenshot)
 - [License](#📃-license)
 - [Links](#🔗-links-to-docs)
 
@@ -59,6 +60,8 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## 💻 Usage
 
+**Video Walkthrough:** 
+
 ><em>MySQL has to be installed on computer for this application to run.</em>
 
 ***Steps for Usage***  
@@ -71,7 +74,10 @@ THEN I am able to successfully create, update, and delete data in my database
 **7:** run `node server` to start app  
 **8:** open Insomnia or another  API development app to GET, POST, PUT, and delete the routes for catergories, products, and tags    
 
-**Video Walkthrough:** 
+
+### 📸 Screenshot
+
+![screenshot of insomnia get request](/assets/screenshot.png)
 
 ---------------
 
